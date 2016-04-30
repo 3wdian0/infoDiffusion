@@ -13,6 +13,7 @@
 		0187234F1CD478DB00E9C5FC /* WWWFavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0187234E1CD478DB00E9C5FC /* WWWFavoriteCell.xib */; };
 		018723531CD47A2200E9C5FC /* WWWFavoriteTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 018723511CD47A2200E9C5FC /* WWWFavoriteTVC.m */; };
 		018723541CD47A2200E9C5FC /* WWWFavoriteTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 018723521CD47A2200E9C5FC /* WWWFavoriteTVC.xib */; };
+		01A258811CD4D46D00A770B0 /* WLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A258801CD4D46D00A770B0 /* WLoginViewController.xib */; };
 		21378F2B1CD2076A006981C3 /* DBL.png in Resources */ = {isa = PBXBuildFile; fileRef = 21378F211CD2076A006981C3 /* DBL.png */; };
 		21378F2C1CD2076A006981C3 /* FZU.png in Resources */ = {isa = PBXBuildFile; fileRef = 21378F221CD2076A006981C3 /* FZU.png */; };
 		21378F2D1CD2076A006981C3 /* 教务处.png in Resources */ = {isa = PBXBuildFile; fileRef = 21378F231CD2076A006981C3 /* 教务处.png */; };
@@ -89,6 +90,7 @@
 		018723501CD47A2200E9C5FC /* WWWFavoriteTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWFavoriteTVC.h; sourceTree = "<group>"; };
 		018723511CD47A2200E9C5FC /* WWWFavoriteTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWFavoriteTVC.m; sourceTree = "<group>"; };
 		018723521CD47A2200E9C5FC /* WWWFavoriteTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWWFavoriteTVC.xib; sourceTree = "<group>"; };
+		01A258801CD4D46D00A770B0 /* WLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLoginViewController.xib; sourceTree = "<group>"; };
 		21378F211CD2076A006981C3 /* DBL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DBL.png; sourceTree = "<group>"; };
 		21378F221CD2076A006981C3 /* FZU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FZU.png; sourceTree = "<group>"; };
 		21378F231CD2076A006981C3 /* 教务处.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "教务处.png"; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 		214556E11CB3E41100343B18 /* Notice */ = {
 			isa = PBXGroup;
 			children = (
+				01A258801CD4D46D00A770B0 /* WLoginViewController.xib */,
 				214556E51CB3E41100343B18 /* AppDelegate.h */,
 				214556E61CB3E41100343B18 /* AppDelegate.m */,
 				21DB26D31CBC8E78005E28BF /* WLoginViewController.h */,
@@ -513,6 +516,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A258811CD4D46D00A770B0 /* WLoginViewController.xib in Resources */,
 				018476EA1CD4B0ED00F5F012 /* WWWArticleCell.xib in Resources */,
 				21378F2F1CD2076A006981C3 /* 物信.png in Resources */,
 				21378F311CD2076A006981C3 /* ad_0.jpg in Resources */,
