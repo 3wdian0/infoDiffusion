@@ -9,10 +9,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="WWWArticleCell">
-            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+            <rect key="frame" x="0.0" y="0.0" width="420" height="80"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="414" height="79"/>
+                <rect key="frame" x="0.0" y="0.0" width="420" height="79"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ELy-LQ-VIg">
@@ -23,7 +23,7 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人在宇宙中会变高！？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6w0-PU-AVO">
-                        <rect key="frame" x="110" y="8" width="200" height="21"/>
+                        <rect key="frame" x="110" y="8" width="300" height="21"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="21" id="Muo-kL-ffD"/>
                         </constraints>
@@ -32,7 +32,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在宇宙中会变高？宇宙最奇异真相难以置信。人在地球上受地球引力的作用，身高往往" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8g-54-syO">
-                        <rect key="frame" x="110" y="33" width="294" height="41"/>
+                        <rect key="frame" x="110" y="33" width="300" height="41"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="41" id="XjV-dE-bQl"/>
                         </constraints>
@@ -49,7 +49,7 @@
                     <constraint firstItem="ELy-LQ-VIg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-3" id="XcT-8u-JPQ"/>
                     <constraint firstItem="R8g-54-syO" firstAttribute="top" secondItem="6w0-PU-AVO" secondAttribute="bottom" constant="4" id="iI2-lU-NLz"/>
                     <constraint firstItem="ELy-LQ-VIg" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="id2-oS-iMn"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="6w0-PU-AVO" secondAttribute="trailing" constant="96" id="wkK-u4-x7r"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="6w0-PU-AVO" secondAttribute="trailing" constant="2" id="wkK-u4-x7r"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
