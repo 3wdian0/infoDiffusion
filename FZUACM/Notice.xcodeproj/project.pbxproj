@@ -269,11 +269,11 @@
 		214556E11CB3E41100343B18 /* Notice */ = {
 			isa = PBXGroup;
 			children = (
-				01A258801CD4D46D00A770B0 /* WLoginViewController.xib */,
 				214556E51CB3E41100343B18 /* AppDelegate.h */,
 				214556E61CB3E41100343B18 /* AppDelegate.m */,
 				21DB26D31CBC8E78005E28BF /* WLoginViewController.h */,
 				21DB26D41CBC8E78005E28BF /* WLoginViewController.m */,
+				01A258801CD4D46D00A770B0 /* WLoginViewController.xib */,
 				214556EE1CB3E41100343B18 /* Assets.xcassets */,
 				214556F01CB3E41100343B18 /* LaunchScreen.storyboard */,
 				214556F31CB3E41100343B18 /* Info.plist */,
