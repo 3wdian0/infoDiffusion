@@ -57,7 +57,7 @@
     cell.favoImage.layer.cornerRadius = 3.0;
     cell.favoNmae.text = @"乱世浮沉";
     cell.favoTag.text = @"文艺的小小青年";
-    cell.favoNumber.text = @"243";
+    
     
     
     

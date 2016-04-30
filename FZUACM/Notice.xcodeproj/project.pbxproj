@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		018476E91CD4B0ED00F5F012 /* WWWArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 018476E71CD4B0ED00F5F012 /* WWWArticleCell.m */; };
 		018476EA1CD4B0ED00F5F012 /* WWWArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 018476E81CD4B0ED00F5F012 /* WWWArticleCell.xib */; };
-		0187234D1CD478CA00E9C5FC /* WWWFavoriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187234C1CD478CA00E9C5FC /* WWWFavoriteCell.m */; };
-		0187234F1CD478DB00E9C5FC /* WWWFavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0187234E1CD478DB00E9C5FC /* WWWFavoriteCell.xib */; };
-		018723531CD47A2200E9C5FC /* WWWFavoriteTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 018723511CD47A2200E9C5FC /* WWWFavoriteTVC.m */; };
-		018723541CD47A2200E9C5FC /* WWWFavoriteTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 018723521CD47A2200E9C5FC /* WWWFavoriteTVC.xib */; };
 		01A258811CD4D46D00A770B0 /* WLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A258801CD4D46D00A770B0 /* WLoginViewController.xib */; };
+		01B744761CD4E1CB00408F6E /* WWWFavoriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B744711CD4E1CB00408F6E /* WWWFavoriteCell.m */; };
+		01B744771CD4E1CB00408F6E /* WWWFavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B744721CD4E1CB00408F6E /* WWWFavoriteCell.xib */; };
+		01B744781CD4E1CB00408F6E /* WWWFavoriteTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B744741CD4E1CB00408F6E /* WWWFavoriteTVC.m */; };
+		01B744791CD4E1CB00408F6E /* WWWFavoriteTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B744751CD4E1CB00408F6E /* WWWFavoriteTVC.xib */; };
+		01B7447D1CD4E25000408F6E /* WWWFollowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B7447B1CD4E25000408F6E /* WWWFollowVC.m */; };
+		01B7447E1CD4E25000408F6E /* WWWFollowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B7447C1CD4E25000408F6E /* WWWFollowVC.xib */; };
+		01B744811CD4EAFC00408F6E /* WWWFollowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B744801CD4EAFC00408F6E /* WWWFollowCell.m */; };
+		01B744851CD4EB3A00408F6E /* WWWFollowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B744841CD4EB3A00408F6E /* WWWFollowCell.xib */; };
+		01B7448A1CD4FE2E00408F6E /* WWWProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B744881CD4FE2E00408F6E /* WWWProfileVC.m */; };
+		01B7448B1CD4FE2E00408F6E /* WWWProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B744891CD4FE2E00408F6E /* WWWProfileVC.xib */; };
 		21378F2B1CD2076A006981C3 /* DBL.png in Resources */ = {isa = PBXBuildFile; fileRef = 21378F211CD2076A006981C3 /* DBL.png */; };
 		21378F2C1CD2076A006981C3 /* FZU.png in Resources */ = {isa = PBXBuildFile; fileRef = 21378F221CD2076A006981C3 /* FZU.png */; };
 		21378F2D1CD2076A006981C3 /* 教务处.png in Resources */ = {isa = PBXBuildFile; fileRef = 21378F231CD2076A006981C3 /* 教务处.png */; };
@@ -84,13 +90,22 @@
 		018476E61CD4B0ED00F5F012 /* WWWArticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWArticleCell.h; sourceTree = "<group>"; };
 		018476E71CD4B0ED00F5F012 /* WWWArticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWArticleCell.m; sourceTree = "<group>"; };
 		018476E81CD4B0ED00F5F012 /* WWWArticleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWWArticleCell.xib; sourceTree = "<group>"; };
-		0187234B1CD478CA00E9C5FC /* WWWFavoriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWFavoriteCell.h; sourceTree = "<group>"; };
-		0187234C1CD478CA00E9C5FC /* WWWFavoriteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWFavoriteCell.m; sourceTree = "<group>"; };
-		0187234E1CD478DB00E9C5FC /* WWWFavoriteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWWFavoriteCell.xib; sourceTree = "<group>"; };
-		018723501CD47A2200E9C5FC /* WWWFavoriteTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWFavoriteTVC.h; sourceTree = "<group>"; };
-		018723511CD47A2200E9C5FC /* WWWFavoriteTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWFavoriteTVC.m; sourceTree = "<group>"; };
-		018723521CD47A2200E9C5FC /* WWWFavoriteTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWWFavoriteTVC.xib; sourceTree = "<group>"; };
 		01A258801CD4D46D00A770B0 /* WLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLoginViewController.xib; sourceTree = "<group>"; };
+		01B744701CD4E1CB00408F6E /* WWWFavoriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWWFavoriteCell.h; path = Favorite/WWWFavoriteCell.h; sourceTree = "<group>"; };
+		01B744711CD4E1CB00408F6E /* WWWFavoriteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWWFavoriteCell.m; path = Favorite/WWWFavoriteCell.m; sourceTree = "<group>"; };
+		01B744721CD4E1CB00408F6E /* WWWFavoriteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WWWFavoriteCell.xib; path = Favorite/WWWFavoriteCell.xib; sourceTree = "<group>"; };
+		01B744731CD4E1CB00408F6E /* WWWFavoriteTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWWFavoriteTVC.h; path = Favorite/WWWFavoriteTVC.h; sourceTree = "<group>"; };
+		01B744741CD4E1CB00408F6E /* WWWFavoriteTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWWFavoriteTVC.m; path = Favorite/WWWFavoriteTVC.m; sourceTree = "<group>"; };
+		01B744751CD4E1CB00408F6E /* WWWFavoriteTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WWWFavoriteTVC.xib; path = Favorite/WWWFavoriteTVC.xib; sourceTree = "<group>"; };
+		01B7447A1CD4E25000408F6E /* WWWFollowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWWFollowVC.h; path = Follow/WWWFollowVC.h; sourceTree = "<group>"; };
+		01B7447B1CD4E25000408F6E /* WWWFollowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWWFollowVC.m; path = Follow/WWWFollowVC.m; sourceTree = "<group>"; };
+		01B7447C1CD4E25000408F6E /* WWWFollowVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WWWFollowVC.xib; path = Follow/WWWFollowVC.xib; sourceTree = "<group>"; };
+		01B7447F1CD4EAFC00408F6E /* WWWFollowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWWFollowCell.h; path = Follow/WWWFollowCell.h; sourceTree = "<group>"; };
+		01B744801CD4EAFC00408F6E /* WWWFollowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWWFollowCell.m; path = Follow/WWWFollowCell.m; sourceTree = "<group>"; };
+		01B744841CD4EB3A00408F6E /* WWWFollowCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WWWFollowCell.xib; path = Follow/WWWFollowCell.xib; sourceTree = "<group>"; };
+		01B744871CD4FE2E00408F6E /* WWWProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWWProfileVC.h; path = Profile/WWWProfileVC.h; sourceTree = "<group>"; };
+		01B744881CD4FE2E00408F6E /* WWWProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWWProfileVC.m; path = Profile/WWWProfileVC.m; sourceTree = "<group>"; };
+		01B744891CD4FE2E00408F6E /* WWWProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WWWProfileVC.xib; path = Profile/WWWProfileVC.xib; sourceTree = "<group>"; };
 		21378F211CD2076A006981C3 /* DBL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DBL.png; sourceTree = "<group>"; };
 		21378F221CD2076A006981C3 /* FZU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FZU.png; sourceTree = "<group>"; };
 		21378F231CD2076A006981C3 /* 教务处.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "教务处.png"; sourceTree = "<group>"; };
@@ -205,6 +220,42 @@
 				219F63201CD23CB500F24EC9 /* WWWebViewController.m */,
 			);
 			name = WebDetailVIew;
+			sourceTree = "<group>";
+		};
+		01B7446E1CD4E1A100408F6E /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+				01B7447A1CD4E25000408F6E /* WWWFollowVC.h */,
+				01B7447B1CD4E25000408F6E /* WWWFollowVC.m */,
+				01B7447C1CD4E25000408F6E /* WWWFollowVC.xib */,
+				01B7447F1CD4EAFC00408F6E /* WWWFollowCell.h */,
+				01B744801CD4EAFC00408F6E /* WWWFollowCell.m */,
+				01B744841CD4EB3A00408F6E /* WWWFollowCell.xib */,
+			);
+			name = Follow;
+			sourceTree = "<group>";
+		};
+		01B7446F1CD4E1B200408F6E /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				01B744731CD4E1CB00408F6E /* WWWFavoriteTVC.h */,
+				01B744741CD4E1CB00408F6E /* WWWFavoriteTVC.m */,
+				01B744751CD4E1CB00408F6E /* WWWFavoriteTVC.xib */,
+				01B744701CD4E1CB00408F6E /* WWWFavoriteCell.h */,
+				01B744711CD4E1CB00408F6E /* WWWFavoriteCell.m */,
+				01B744721CD4E1CB00408F6E /* WWWFavoriteCell.xib */,
+			);
+			name = Favorite;
+			sourceTree = "<group>";
+		};
+		01B744861CD4FDDE00408F6E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				01B744871CD4FE2E00408F6E /* WWWProfileVC.h */,
+				01B744881CD4FE2E00408F6E /* WWWProfileVC.m */,
+				01B744891CD4FE2E00408F6E /* WWWProfileVC.xib */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 		21378F1F1CD2076A006981C3 /* Resource */ = {
@@ -399,12 +450,9 @@
 			children = (
 				219F634D1CD23CCD00F24EC9 /* WPersonalViewController.h */,
 				219F634E1CD23CCD00F24EC9 /* WPersonalViewController.m */,
-				018723501CD47A2200E9C5FC /* WWWFavoriteTVC.h */,
-				018723511CD47A2200E9C5FC /* WWWFavoriteTVC.m */,
-				018723521CD47A2200E9C5FC /* WWWFavoriteTVC.xib */,
-				0187234B1CD478CA00E9C5FC /* WWWFavoriteCell.h */,
-				0187234C1CD478CA00E9C5FC /* WWWFavoriteCell.m */,
-				0187234E1CD478DB00E9C5FC /* WWWFavoriteCell.xib */,
+				01B744861CD4FDDE00408F6E /* Profile */,
+				01B7446F1CD4E1B200408F6E /* Favorite */,
+				01B7446E1CD4E1A100408F6E /* Follow */,
 			);
 			name = View_4;
 			path = Notice/View_4;
@@ -523,17 +571,20 @@
 				219F63331CD23CB500F24EC9 /* WWTableViewPage.xib in Resources */,
 				21378F331CD2076A006981C3 /* ad_2.jpg in Resources */,
 				219F63491CD23CC500F24EC9 /* WWWNoticeDetailVC.xib in Resources */,
-				0187234F1CD478DB00E9C5FC /* WWWFavoriteCell.xib in Resources */,
 				21378F301CD2076A006981C3 /* 经管.png in Resources */,
 				21378F391CD20C09006981C3 /* 通知.png in Resources */,
 				21378F2C1CD2076A006981C3 /* FZU.png in Resources */,
-				018723541CD47A2200E9C5FC /* WWWFavoriteTVC.xib in Resources */,
+				01B744771CD4E1CB00408F6E /* WWWFavoriteCell.xib in Resources */,
+				01B7447E1CD4E25000408F6E /* WWWFollowVC.xib in Resources */,
+				01B7448B1CD4FE2E00408F6E /* WWWProfileVC.xib in Resources */,
 				219F633A1CD23CBD00F24EC9 /* WHobbyViewController.xib in Resources */,
 				214556F21CB3E41100343B18 /* LaunchScreen.storyboard in Resources */,
 				219F63471CD23CC500F24EC9 /* WNoticeViewController.xib in Resources */,
 				21378F351CD20901006981C3 /* NewsURLs.plist in Resources */,
 				21378F2D1CD2076A006981C3 /* 教务处.png in Resources */,
 				21378F2B1CD2076A006981C3 /* DBL.png in Resources */,
+				01B744851CD4EB3A00408F6E /* WWWFollowCell.xib in Resources */,
+				01B744791CD4E1CB00408F6E /* WWWFavoriteTVC.xib in Resources */,
 				21378F321CD2076A006981C3 /* ad_1.jpg in Resources */,
 				214556EF1CB3E41100343B18 /* Assets.xcassets in Resources */,
 				21378F2E1CD2076A006981C3 /* 数计.png in Resources */,
@@ -564,9 +615,11 @@
 			files = (
 				219F632E1CD23CB500F24EC9 /* UIView+WebCacheOperation.m in Sources */,
 				219F632A1CD23CB500F24EC9 /* UIImage+GIF.m in Sources */,
+				01B744811CD4EAFC00408F6E /* WWWFollowCell.m in Sources */,
 				219F63251CD23CB500F24EC9 /* SDWebImageDownloader.m in Sources */,
 				219F63291CD23CB500F24EC9 /* UIButton+WebCache.m in Sources */,
 				219F632C1CD23CB500F24EC9 /* UIImageView+HighlightedWebCache.m in Sources */,
+				01B7448A1CD4FE2E00408F6E /* WWWProfileVC.m in Sources */,
 				219F63241CD23CB500F24EC9 /* SDWebImageDecoder.m in Sources */,
 				219F632F1CD23CB500F24EC9 /* SXTitleLable.m in Sources */,
 				21DB26D61CBC8E78005E28BF /* WLoginViewController.m in Sources */,
@@ -575,13 +628,14 @@
 				018476E91CD4B0ED00F5F012 /* WWWArticleCell.m in Sources */,
 				219F63231CD23CB500F24EC9 /* SDWebImageCompat.m in Sources */,
 				214556E71CB3E41100343B18 /* AppDelegate.m in Sources */,
+				01B744781CD4E1CB00408F6E /* WWWFavoriteTVC.m in Sources */,
 				219F63391CD23CBD00F24EC9 /* WHobbyViewController.m in Sources */,
 				219F63211CD23CB500F24EC9 /* NSData+ImageContentType.m in Sources */,
+				01B744761CD4E1CB00408F6E /* WWWFavoriteCell.m in Sources */,
 				219F63261CD23CB500F24EC9 /* SDWebImageDownloaderOperation.m in Sources */,
+				01B7447D1CD4E25000408F6E /* WWWFollowVC.m in Sources */,
 				219F632D1CD23CB500F24EC9 /* UIImageView+WebCache.m in Sources */,
 				219F63271CD23CB500F24EC9 /* SDWebImageManager.m in Sources */,
-				0187234D1CD478CA00E9C5FC /* WWWFavoriteCell.m in Sources */,
-				018723531CD47A2200E9C5FC /* WWWFavoriteTVC.m in Sources */,
 				219F63461CD23CC500F24EC9 /* WNoticeViewController.m in Sources */,
 				219F634F1CD23CCD00F24EC9 /* WPersonalViewController.m in Sources */,
 				219F63481CD23CC500F24EC9 /* WWWNoticeDetailVC.m in Sources */,

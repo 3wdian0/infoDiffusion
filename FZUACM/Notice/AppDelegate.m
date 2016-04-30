@@ -31,7 +31,7 @@
     [self.window makeKeyAndVisible];
     
      WLoginViewController *loginVC = [[WLoginViewController alloc]init];
-     self.window.rootViewController =loginVC;
+     // self.window.rootViewController =loginVC;
     
     
     
@@ -60,10 +60,11 @@
     UINavigationController *navPersonal = [[UINavigationController alloc]initWithRootViewController:personalVC];
      [self chushihua:navPersonal.navigationBar];
     
+    
     UITabBarController *tabBarController = [[UITabBarController alloc]init];
-    tabBarController.viewControllers = @[navHome,navHobby,navNotice,navPersonal];
-    // self.window.rootViewController =tabBarController;
-
+    tabBarController.viewControllers = @[navPersonal,navNotice, navHome];
+    self.window.rootViewController =tabBarController;
+    
     return YES;
 }
 

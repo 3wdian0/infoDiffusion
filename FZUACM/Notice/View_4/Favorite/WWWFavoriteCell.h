@@ -14,6 +14,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *favoNmae;
 @property (weak, nonatomic) IBOutlet UILabel *favoTag;
 @property (weak, nonatomic) IBOutlet UILabel *favoTitle;
-@property (weak, nonatomic) IBOutlet UILabel *favoNumber;
+
 
 @end

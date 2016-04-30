@@ -7,7 +7,9 @@
 //
 
 #import "WPersonalViewController.h"
+
 #import "WWWFavoriteTVC.h"
+#import "WWWFollowVC.h"
 
 @interface WPersonalViewController ()
 @property(nonatomic,strong) NSArray *array;
@@ -23,27 +25,20 @@
     if (self) {
         
         self.navigationItem.title = @"我";
+        
         self.tabBarItem.title = @"我";
         self.tabBarItem.image = [UIImage imageNamed:@"tabBar4"];
-       
-        
-        
-        
         UIImage* selectedImage0 = [UIImage imageNamed:@"tabBarClick4.png"];
         selectedImage0 = [selectedImage0 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         self.tabBarItem.selectedImage =selectedImage0;
         
         
         // self.tableView.backgroundColor = [UIColor lightGrayColor];
-        self.tableView.backgroundColor = [UIColor colorWithRed:247.0/255.0 green:247.0/255.0 blue:247.0/255.0 alpha:1.0];
+        // self.tableView.backgroundColor = [UIColor colorWithRed:247.0/255.0 green:247.0/255.0 blue:247.0/255.0 alpha:1.0];
 
     }
-    NSLog(@"sizeof(NSInteger) = %@", @(sizeof(NSInteger)));
     return self;
 }
-
-
-
 
 
 - (void)viewDidLoad {
@@ -57,7 +52,7 @@
 
     self.array = @[arr1,arr2,arr3,arr4];
     
-    UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 1)];
+    UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 0)];
     [self.tableView setTableFooterView:v];
     
   
@@ -153,6 +148,7 @@
 {
     NSInteger row = indexPath.row;
     NSInteger section = indexPath.section;
+    
     switch (section) {
         case 0:
             NSLog(@"section=%ld",(long)section);
@@ -161,13 +157,27 @@
         { NSLog(@"section=%ld",(long)section);
             switch (row) {
                 case 0:
-                    NSLog(@"row=%ld",(long)row);
+                {   NSLog(@"row=%ld",(long)row);
+                    WWWFavoriteTVC *detailViewController = [[WWWFavoriteTVC alloc] init];
+                    detailViewController.hidesBottomBarWhenPushed = YES;
+                    [self.navigationController pushViewController:detailViewController
+                                                         animated:YES];
+                    
+                }
                     break;
                 case 1:
-                    NSLog(@"row=%ld",(long)row);
+                { NSLog(@"row=%ld",(long)row);
+
+
+                }
+                    
                     break;
                 case 2:
-                    NSLog(@"row=%ld",(long)row);
+                {NSLog(@"row=%ld",(long)row);
+                    WWWFollowVC *detailViewController = [[WWWFollowVC alloc] init];
+                    detailViewController.hidesBottomBarWhenPushed = YES;
+                    [self.navigationController pushViewController:detailViewController
+                                                         animated:YES];}
                     break;
                     
                 default:
@@ -186,9 +196,8 @@
         default:
             break;
     }
-    WWWFavoriteTVC *detailViewController = [[WWWFavoriteTVC alloc] init];
-    [self.navigationController pushViewController:detailViewController
-                                         animated:YES];
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+
 }
 
 
