@@ -104,7 +104,7 @@
 
 - (void)doSomethingInSegment:(UISegmentedControl *)Seg {
     
-    NSLog(@"index %d ", Seg.selectedSegmentIndex);
+    NSLog(@"index %ld ", (long)Seg.selectedSegmentIndex);
   
 }
 - (void)viewDidLoad {

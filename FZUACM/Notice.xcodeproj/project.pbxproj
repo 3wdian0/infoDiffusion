@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0187234D1CD478CA00E9C5FC /* WWWFavoriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187234C1CD478CA00E9C5FC /* WWWFavoriteCell.m */; };
+		0187234F1CD478DB00E9C5FC /* WWWFavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0187234E1CD478DB00E9C5FC /* WWWFavoriteCell.xib */; };
+		018723531CD47A2200E9C5FC /* WWWFavoriteTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 018723511CD47A2200E9C5FC /* WWWFavoriteTVC.m */; };
+		018723541CD47A2200E9C5FC /* WWWFavoriteTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 018723521CD47A2200E9C5FC /* WWWFavoriteTVC.xib */; };
 		21378F2B1CD2076A006981C3 /* DBL.png in Resources */ = {isa = PBXBuildFile; fileRef = 21378F211CD2076A006981C3 /* DBL.png */; };
 		21378F2C1CD2076A006981C3 /* FZU.png in Resources */ = {isa = PBXBuildFile; fileRef = 21378F221CD2076A006981C3 /* FZU.png */; };
 		21378F2D1CD2076A006981C3 /* 教务处.png in Resources */ = {isa = PBXBuildFile; fileRef = 21378F231CD2076A006981C3 /* 教务处.png */; };
@@ -75,6 +79,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0187234B1CD478CA00E9C5FC /* WWWFavoriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWFavoriteCell.h; sourceTree = "<group>"; };
+		0187234C1CD478CA00E9C5FC /* WWWFavoriteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWFavoriteCell.m; sourceTree = "<group>"; };
+		0187234E1CD478DB00E9C5FC /* WWWFavoriteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWWFavoriteCell.xib; sourceTree = "<group>"; };
+		018723501CD47A2200E9C5FC /* WWWFavoriteTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWFavoriteTVC.h; sourceTree = "<group>"; };
+		018723511CD47A2200E9C5FC /* WWWFavoriteTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWFavoriteTVC.m; sourceTree = "<group>"; };
+		018723521CD47A2200E9C5FC /* WWWFavoriteTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWWFavoriteTVC.xib; sourceTree = "<group>"; };
 		21378F211CD2076A006981C3 /* DBL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DBL.png; sourceTree = "<group>"; };
 		21378F221CD2076A006981C3 /* FZU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FZU.png; sourceTree = "<group>"; };
 		21378F231CD2076A006981C3 /* 教务处.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "教务处.png"; sourceTree = "<group>"; };
@@ -373,6 +383,12 @@
 			children = (
 				219F634D1CD23CCD00F24EC9 /* WPersonalViewController.h */,
 				219F634E1CD23CCD00F24EC9 /* WPersonalViewController.m */,
+				018723501CD47A2200E9C5FC /* WWWFavoriteTVC.h */,
+				018723511CD47A2200E9C5FC /* WWWFavoriteTVC.m */,
+				018723521CD47A2200E9C5FC /* WWWFavoriteTVC.xib */,
+				0187234B1CD478CA00E9C5FC /* WWWFavoriteCell.h */,
+				0187234C1CD478CA00E9C5FC /* WWWFavoriteCell.m */,
+				0187234E1CD478DB00E9C5FC /* WWWFavoriteCell.xib */,
 			);
 			name = View_4;
 			path = Notice/View_4;
@@ -489,9 +505,11 @@
 				219F63331CD23CB500F24EC9 /* WWTableViewPage.xib in Resources */,
 				21378F331CD2076A006981C3 /* ad_2.jpg in Resources */,
 				219F63491CD23CC500F24EC9 /* WWWNoticeDetailVC.xib in Resources */,
+				0187234F1CD478DB00E9C5FC /* WWWFavoriteCell.xib in Resources */,
 				21378F301CD2076A006981C3 /* 经管.png in Resources */,
 				21378F391CD20C09006981C3 /* 通知.png in Resources */,
 				21378F2C1CD2076A006981C3 /* FZU.png in Resources */,
+				018723541CD47A2200E9C5FC /* WWWFavoriteTVC.xib in Resources */,
 				21DB26D71CBC8E78005E28BF /* WLoginViewController.xib in Resources */,
 				219F633A1CD23CBD00F24EC9 /* WHobbyViewController.xib in Resources */,
 				214556F21CB3E41100343B18 /* LaunchScreen.storyboard in Resources */,
@@ -544,6 +562,8 @@
 				219F63261CD23CB500F24EC9 /* SDWebImageDownloaderOperation.m in Sources */,
 				219F632D1CD23CB500F24EC9 /* UIImageView+WebCache.m in Sources */,
 				219F63271CD23CB500F24EC9 /* SDWebImageManager.m in Sources */,
+				0187234D1CD478CA00E9C5FC /* WWWFavoriteCell.m in Sources */,
+				018723531CD47A2200E9C5FC /* WWWFavoriteTVC.m in Sources */,
 				219F63461CD23CC500F24EC9 /* WNoticeViewController.m in Sources */,
 				219F634F1CD23CCD00F24EC9 /* WPersonalViewController.m in Sources */,
 				219F63481CD23CC500F24EC9 /* WWWNoticeDetailVC.m in Sources */,
