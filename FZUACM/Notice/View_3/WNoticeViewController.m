@@ -15,6 +15,7 @@
 #define kScreenWidth  [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
+// 自适应 Height
 #define kNavigationBarHeight  64.0
 #define kBannerHeight 150.0
 
