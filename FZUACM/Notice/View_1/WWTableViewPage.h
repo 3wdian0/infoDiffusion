@@ -5,6 +5,7 @@
 //  Created by w3dian0 on 4/17/16.
 //  Copyright © 2016 fzuacm. All rights reserved.
 //
+// View_1
 
 #import <UIKit/UIKit.h>
 
@@ -12,7 +13,6 @@
 
 
 @property (nonatomic,assign) NSString* categoryid;
-
 @property (nonatomic,assign) NSInteger index;
 
 @end
