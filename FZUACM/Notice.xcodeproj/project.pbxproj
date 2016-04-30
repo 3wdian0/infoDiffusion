@@ -60,7 +60,6 @@
 		219F634B1CD23CC500F24EC9 /* ZYBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F63451CD23CC500F24EC9 /* ZYBannerView.m */; };
 		219F634F1CD23CCD00F24EC9 /* WPersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 219F634E1CD23CCD00F24EC9 /* WPersonalViewController.m */; };
 		21DB26D61CBC8E78005E28BF /* WLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DB26D41CBC8E78005E28BF /* WLoginViewController.m */; };
-		21DB26D71CBC8E78005E28BF /* WLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21DB26D51CBC8E78005E28BF /* WLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,7 +169,6 @@
 		219F634E1CD23CCD00F24EC9 /* WPersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPersonalViewController.m; sourceTree = "<group>"; };
 		21DB26D31CBC8E78005E28BF /* WLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLoginViewController.h; sourceTree = "<group>"; };
 		21DB26D41CBC8E78005E28BF /* WLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLoginViewController.m; sourceTree = "<group>"; };
-		21DB26D51CBC8E78005E28BF /* WLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,7 +271,6 @@
 				214556E61CB3E41100343B18 /* AppDelegate.m */,
 				21DB26D31CBC8E78005E28BF /* WLoginViewController.h */,
 				21DB26D41CBC8E78005E28BF /* WLoginViewController.m */,
-				21DB26D51CBC8E78005E28BF /* WLoginViewController.xib */,
 				214556EE1CB3E41100343B18 /* Assets.xcassets */,
 				214556F01CB3E41100343B18 /* LaunchScreen.storyboard */,
 				214556F31CB3E41100343B18 /* Info.plist */,
@@ -527,7 +524,6 @@
 				21378F391CD20C09006981C3 /* 通知.png in Resources */,
 				21378F2C1CD2076A006981C3 /* FZU.png in Resources */,
 				018723541CD47A2200E9C5FC /* WWWFavoriteTVC.xib in Resources */,
-				21DB26D71CBC8E78005E28BF /* WLoginViewController.xib in Resources */,
 				219F633A1CD23CBD00F24EC9 /* WHobbyViewController.xib in Resources */,
 				214556F21CB3E41100343B18 /* LaunchScreen.storyboard in Resources */,
 				219F63471CD23CC500F24EC9 /* WNoticeViewController.xib in Resources */,
