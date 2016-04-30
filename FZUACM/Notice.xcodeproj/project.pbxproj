@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		018476E91CD4B0ED00F5F012 /* WWWArticleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 018476E71CD4B0ED00F5F012 /* WWWArticleCell.m */; };
+		018476EA1CD4B0ED00F5F012 /* WWWArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 018476E81CD4B0ED00F5F012 /* WWWArticleCell.xib */; };
 		0187234D1CD478CA00E9C5FC /* WWWFavoriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0187234C1CD478CA00E9C5FC /* WWWFavoriteCell.m */; };
 		0187234F1CD478DB00E9C5FC /* WWWFavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0187234E1CD478DB00E9C5FC /* WWWFavoriteCell.xib */; };
 		018723531CD47A2200E9C5FC /* WWWFavoriteTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 018723511CD47A2200E9C5FC /* WWWFavoriteTVC.m */; };
@@ -79,6 +81,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018476E61CD4B0ED00F5F012 /* WWWArticleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWArticleCell.h; sourceTree = "<group>"; };
+		018476E71CD4B0ED00F5F012 /* WWWArticleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWArticleCell.m; sourceTree = "<group>"; };
+		018476E81CD4B0ED00F5F012 /* WWWArticleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWWArticleCell.xib; sourceTree = "<group>"; };
 		0187234B1CD478CA00E9C5FC /* WWWFavoriteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWWFavoriteCell.h; sourceTree = "<group>"; };
 		0187234C1CD478CA00E9C5FC /* WWWFavoriteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWWFavoriteCell.m; sourceTree = "<group>"; };
 		0187234E1CD478DB00E9C5FC /* WWWFavoriteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWWFavoriteCell.xib; sourceTree = "<group>"; };
@@ -193,6 +198,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		018476EB1CD4B35F00F5F012 /* WebDetailVIew */ = {
+			isa = PBXGroup;
+			children = (
+				219F631F1CD23CB500F24EC9 /* WWWebViewController.h */,
+				219F63201CD23CB500F24EC9 /* WWWebViewController.m */,
+			);
+			name = WebDetailVIew;
+			sourceTree = "<group>";
+		};
 		21378F1F1CD2076A006981C3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -297,6 +311,7 @@
 		219F62F81CD23CB500F24EC9 /* View_1 */ = {
 			isa = PBXGroup;
 			children = (
+				018476EB1CD4B35F00F5F012 /* WebDetailVIew */,
 				219F62F91CD23CB500F24EC9 /* SDWebImage */,
 				219F63171CD23CB500F24EC9 /* SXTitleLable.h */,
 				219F63181CD23CB500F24EC9 /* SXTitleLable.m */,
@@ -306,8 +321,9 @@
 				219F631C1CD23CB500F24EC9 /* WWTableViewPage.h */,
 				219F631D1CD23CB500F24EC9 /* WWTableViewPage.m */,
 				219F631E1CD23CB500F24EC9 /* WWTableViewPage.xib */,
-				219F631F1CD23CB500F24EC9 /* WWWebViewController.h */,
-				219F63201CD23CB500F24EC9 /* WWWebViewController.m */,
+				018476E61CD4B0ED00F5F012 /* WWWArticleCell.h */,
+				018476E71CD4B0ED00F5F012 /* WWWArticleCell.m */,
+				018476E81CD4B0ED00F5F012 /* WWWArticleCell.xib */,
 			);
 			name = View_1;
 			path = Notice/View_1;
@@ -500,6 +516,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018476EA1CD4B0ED00F5F012 /* WWWArticleCell.xib in Resources */,
 				21378F2F1CD2076A006981C3 /* 物信.png in Resources */,
 				21378F311CD2076A006981C3 /* ad_0.jpg in Resources */,
 				219F63331CD23CB500F24EC9 /* WWTableViewPage.xib in Resources */,
@@ -555,6 +572,7 @@
 				21DB26D61CBC8E78005E28BF /* WLoginViewController.m in Sources */,
 				219F63341CD23CB500F24EC9 /* WWWebViewController.m in Sources */,
 				219F634A1CD23CC500F24EC9 /* ZYBannerCell.m in Sources */,
+				018476E91CD4B0ED00F5F012 /* WWWArticleCell.m in Sources */,
 				219F63231CD23CB500F24EC9 /* SDWebImageCompat.m in Sources */,
 				214556E71CB3E41100343B18 /* AppDelegate.m in Sources */,
 				219F63391CD23CBD00F24EC9 /* WHobbyViewController.m in Sources */,

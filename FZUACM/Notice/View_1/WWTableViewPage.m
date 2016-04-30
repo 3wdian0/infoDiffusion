@@ -11,7 +11,7 @@
 #import "UIImageView+WebCache.h"
 
 #import "WWWNoticeDetailVC.h"
-
+#import "WWWArticleCell.h"
 
 
 
@@ -56,7 +56,17 @@
     // [self startRequest];
     [self loadData];
     
-    UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 0)];
+    
+    // Load the NIB file
+    UINib *nib = [UINib nibWithNibName:@"WWWArticleCell" bundle:nil];
+    
+    // Register this NIB, which contains the cell
+    [self.tableView registerNib:nib
+         forCellReuseIdentifier:@"WWWArticleCell"];
+
+    
+    
+    UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width , 0)];
     [self.tableView setTableFooterView:v];
     [self.tableView registerClass:[UITableViewCell class]
            forCellReuseIdentifier:@"UITableViewCell"];
@@ -66,6 +76,9 @@
     rc.attributedTitle = [[NSAttributedString alloc]initWithString:@"下拉刷新"];
     [rc addTarget:self action:@selector(refreshTableView) forControlEvents:UIControlEventValueChanged];
     self.refreshControl = rc;
+    
+    
+    
     
     
     
@@ -103,31 +116,23 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCell" forIndexPath:indexPath];
+    // Get a new or recycled cell
+    WWWArticleCell *cell = [tableView dequeueReusableCellWithIdentifier:@"WWWArticleCell" forIndexPath:indexPath];
     
-    UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(20, 10, 80, 60)];
-    imageView.image = [UIImage imageNamed:self.imageArr[indexPath.row]];
-    // [imageView sd_setImageWithURL:[NSURL URLWithString:self.listData[indexPath.row][@"photourl"]] placeholderImage:[UIImage imageNamed:@"302"]];
     
-    imageView.layer.masksToBounds = YES;
-    imageView.layer.cornerRadius = 2.0;
-    
-    UILabel *nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(110, 5, 200, 35)];
-    // nameLabel.text = self.listData[indexPath.row][@"title"];
-    nameLabel.text = self.titleArr[indexPath.row];
+    // Configure the cell with the WWWItem model
 
+    // [cell.articleImage sd_setImageWithURL:[NSURL URLWithString:self.listData[indexPath.row][@"photourl"]] placeholderImage:[UIImage imageNamed:@"302"]];
+    cell.articleImage.image = [UIImage imageNamed:self.imageArr[indexPath.row]];
+    cell.articleImage.layer.masksToBounds = YES;
+    cell.articleImage.layer.cornerRadius = 2.0;
     
-    UILabel *idLabel = [[UILabel alloc]initWithFrame:CGRectMake(110, 35, 200, 40)];
-    idLabel.numberOfLines = 0;
-    idLabel.text = self.subTitleArr[indexPath.row];
-    idLabel.font =[UIFont boldSystemFontOfSize:11.0];
-    idLabel.textColor = [UIColor grayColor];
+    // cell.articleTitle.text = self.listData[indexPath.row][@"title"];
     
-    [cell.contentView addSubview:imageView];
-    [cell.contentView addSubview:nameLabel];
-    [cell.contentView addSubview:idLabel];
+    cell.articleTitle.text = self.titleArr[indexPath.row];
+    cell.articleSubTitle.text = self.subTitleArr[indexPath.row];
     
-    
+
     return cell;
 }
 
@@ -475,4 +480,5 @@
 
 }
 @end
+ 
 */
