@@ -141,7 +141,7 @@
     NSDateComponents *d = [cal components:unitFlags fromDate:[date dateFromString:self.beginTime] toDate:[date dateFromString:self.endTime] options:0];
 
 
-    NSLog(@"阅读时长=%d秒",[d minute]*60+[d second]);
+    NSLog(@"阅读时长=%ld秒",[d minute]*60+[d second]);
     
     NSLog(@"回滚次数（往后，回滚次数）upCount=%d",_upCount);
     NSLog(@"拖动次数 (往前，向下拖动）downCount=%d",_downCount);
